@@ -40,6 +40,17 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  #stopwatch {
+    font-size: 4em;
+  }
+
+  #App-body a {
+    font-size: 1.5em;
+    margin: 10px 40px 0 40px;
+  }
+}
+
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
